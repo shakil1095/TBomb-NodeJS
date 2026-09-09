@@ -1,0 +1,28 @@
+{
+  "name": "tbomb-nodejs",
+  "version": "2.1.0",
+  "description": "Node.js version of SMS/Call Bomber - A free and open-source SMS/Call bombing application",
+  "main": "bomber.js",
+  "scripts": {
+    "start": "node bomber.js",
+    "sms": "node bomber.js --sms",
+    "call": "node bomber.js --call",
+    "mail": "node bomber.js --mail"
+  },
+  "keywords": [
+    "sms-bomb",
+    "call-bomb",
+    "sms-bomber",
+    "bomber",
+    "spam"
+  ],
+  "author": "SpeedX (Ported to Node.js)",
+  "license": "Other",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "prompt-sync": "^4.2.0",
+    "pqueue": "^7.3.4"
+  },
+  "devDependencies": {}
+}
